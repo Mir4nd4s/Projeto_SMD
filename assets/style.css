@@ -22,6 +22,7 @@ body {
     background-color: var(--primary-color);
     display: grid;
     min-width: 22.5rem;
+    width: 100%;
     height: 100vh;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
