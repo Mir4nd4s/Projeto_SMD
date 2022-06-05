@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+:root {
+    --primary-color: #75D9FF;
+    --secundary-color: #27669C;
+    --backgroundBox: #F2F2F2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-style: var(--backgroundBox);
+}
+
+.shadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    background-color: var(--primary-color);
+    display: grid;
+    min-width: 22.5rem;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.img {
+    height: 3rem;
+    padding: 3rem 16rem;
+}
+
+/* HOME */
+
+h1 {
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    min-width: 20rem;
+    display: grid;
+    justify-content: center;
+    margin: 2rem 3rem;
+    color: var(--secundary-color);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25rem;
+}
+
+.boxValue {
+    display: flex;
+    align-items: center;
+    background-color: var(--backgroundBox);
+    font-size: 6rem;
+    padding: 0 .9rem;
+}
+
+.title {
+    width: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* REGISTRO */
+
+button{
+    cursor: pointer;
+}
+
+.box {
+    margin: 0 auto;
+    background-color: var(--backgroundBox);
+    height: 100%;
+    padding: 2rem;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+}
+
+input,
+textarea,select {
+    padding: .6rem;
+    color: var(--secundary-color);
+    margin: .6rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+}
+input::placeholder, textarea::placeholder {
+    color: var(--secundary-color);
+    font-size: .6rem;
+    font-family: 'Poppins',
+        sans-serif;
+}
+input:focus, textarea:focus, select {
+    outline: none;
+}
+
+.btnIcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a.btn {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+}
+
+
+a.click {
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+}

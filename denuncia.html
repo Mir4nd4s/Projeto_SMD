@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Monitoramento Doença</title>
+</head>
+
+<body>
+    <header>
+        <div class="img">
+            <a href="./index.html">
+                <img src="./assets/icons/voltar.svg" alt="">
+            </a>
+        </div>
+    </header>
+    <main class="container">
+        <div class="box shadow">
+            <form name="formDenuncia"> 
+                <table>
+                    <tr>
+                        <td align="left">
+                            <label>foco</label>
+                            <select name="foco">
+                                <option value=""></option>
+                                <option value="">exemplo</option>
+                                <option value="">exemplo</option>
+                                <option value="">exemplo</option>
+                                <option value="">exemplo</option>
+                                <option value="">exemplo</option>
+                            </select>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td align="left">
+                                <label for="estado">Estado:</label>
+                                <select name="estado">
+                                    <option value=""></option>
+                                    <option value="ac">Acre</option>
+                                    <option value="al">Alagoas</option>
+                                    <option value="am">Amazonas</option>
+                                    <option value="ap">Amapá</option>
+                                    <option value="ba">Bahia</option>
+                                    <option value="ce">Ceará</option>
+                                    <option value="df">Distrito Federal</option>
+                                    <option value="es">Espírito Santo</option>
+                                    <option value="go">Goiás</option>
+                                    <option value="ma">Maranhão</option>
+                                    <option value="mt">Mato Grosso</option>
+                                    <option value="ms">Mato Grosso do Sul</option>
+                                    <option value="mg">Minas Gerais</option>
+                                    <option value="pa">Pará</option>
+                                    <option value="pb">Paraíba</option>
+                                    <option value="pr">Paraná</option>
+                                    <option value="pe">Pernambuco</option>
+                                    <option value="pi">Piauí</option>
+                                    <option value="rj">Rio de Janeiro</option>
+                                    <option value="rn">Rio Grande do Norte</option>
+                                    <option value="ro">Rondônia</option>
+                                    <option value="rs">Rio Grande do Sul</option>
+                                    <option value="rr">Roraima</option>
+                                    <option value="sc">Santa Catarina</option>
+                                    <option value="se">Sergipe</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="to">Tocantins</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left">
+                                <label for="cidade">Cidade: </label>
+                                <input type="text" name="cidade" placeholder="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left">
+                                <label for="bairro">Bairro: </label>
+                                <input type="text" name="bairro" placeholder="">
+                            </td>
+                        </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td align="left">
+                            <label for="comentario">Comentário:</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div class="btnIcon">
+                <button>
+                    <img src="./assets/icons/confirma.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="btn" href="./registro.html">
+            <img src="./assets/icons/registro.svg" alt="">
+            <h5>REGISTRAR <br /> DOENÇA</h5>
+        </a>
+        <a class="btn click" href="./denuncia.html">
+            <img src="./assets/icons/denuncia.svg" alt="">
+            <h5>DENÚNCIAR <br /> FOCO</h5>
+        </a>
+    </footer>
+</body>
+
+</html>
