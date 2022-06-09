@@ -104,6 +104,9 @@ header {
 
 
 /* REGISTRO */
+p {
+    color: var(--secundary-color);
+}
 
 button{
     cursor: pointer;
