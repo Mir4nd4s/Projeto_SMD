@@ -37,23 +37,36 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.img {
-    height: 3rem;
-    padding: 3rem 16rem;
-}
-
 /* HOME */
 
-h1 {
+/* h1 {
     margin: 2rem auto;
     font-size: 1.5rem;
     font-weight: 700;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
+
+header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .container {
-    text-align: center;
+    min-width: 31.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--secundary-color);
+    gap: 20px;
+
+}
+
+.map {
+    padding: 20px;
+    background-color:  var(--backgroundBox);
 }
 
 .row {
@@ -77,6 +90,18 @@ h1 {
     align-items: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (max-width:1048px) {
+    .container {
+        display: grid;
+    } 
+}
+@media screen and (max-width:647px) {
+    .map iframe {
+        width: 90%;
+    } 
+}
+
 
 /* REGISTRO */
 
@@ -124,9 +149,8 @@ input:focus, textarea:focus, select {
 /* FOOTER */
 
 footer {
-    width: 100vw;
-    margin: 2rem auto 0;
-    text-align: center;
+    height: 9rem;
+    width: 100%;
     background-color: var(--secundary-color);
 }
 
@@ -138,6 +162,7 @@ footer {
 
 footer a {
     width: 100%;
+    text-align: center;
     padding: 1rem;
     border: .06rem solid var(--primary-color);
     color: var(--primary-color);
